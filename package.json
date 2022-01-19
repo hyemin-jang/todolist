@@ -8,12 +8,28 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "12.0.7",
-    "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "-": "^0.0.1",
+    "@reduxjs/toolkit": "^1.7.1",
+    "axios": "^0.24.0",
+    "babel-plugin-inline-react-svg": "^2.0.1",
+    "isomorphic-unfetch": "^3.1.0",
+    "next": "^12.0.7",
+    "next-redux-wrapper": "^7.0.5",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.2.6",
+    "redux": "^4.1.2",
+    "redux-devtools-extension": "^2.13.9",
+    "styled-components": "^5.3.3",
+    "styled-reset": "^4.3.4"
   },
   "devDependencies": {
+    "@types/node": "^17.0.8",
+    "@types/react": "^17.0.38",
+    "@types/react-redux": "^7.1.22",
+    "@types/styled-components": "^5.1.19",
     "eslint": "8.6.0",
-    "eslint-config-next": "12.0.7"
+    "eslint-config-next": "12.0.7",
+    "typescript": "^4.5.4"
   }
 }
